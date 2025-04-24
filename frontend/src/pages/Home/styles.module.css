@@ -1,0 +1,12 @@
+.home {
+    background-color: var(--layout-background);
+    color: var(--typography-primary);
+}
+
+.link {
+    color: var(--brand-primary);
+}
+
+.link:hover {
+    color: var(--brand-primary-dark);
+}
