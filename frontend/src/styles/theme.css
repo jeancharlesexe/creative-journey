@@ -1,0 +1,73 @@
+:root {
+    /* Light Theme Variables */
+  
+    /* Layout */
+    --layout-background: #E3E2DE;
+    --layout-surface: #FFFFFF;
+    --layout-divider: #E0E0E0;
+    --layout-border: #DADCE0;
+    --layout-shadow: 0px 0px 15px rgba(0, 0, 0, 0.103);
+    --layout-shadow-none: none;
+  
+    /* Typography */
+    --typography-primary: #202124;
+    --typography-secondary: #5F6368;
+    --typography-disabled: #BDBDBD;
+  
+    /* Brand */
+    --brand-primary: #0064E6;
+    --brand-primary-light: #4791DB;
+    --brand-primary-dark: #115293;
+    --brand-secondary: #03DAC6;
+    --brand-secondary-light: #66FFF9;
+    --brand-secondary-dark: #00A896;
+  
+    /* Interaction */
+    --interaction-hover: rgba(0, 0, 0, 0.04);
+    --interaction-focus: rgba(0, 0, 0, 0.12);
+    --interaction-selected: rgba(25, 118, 210, 0.08);
+    --interaction-disabled: #BDBDBD;
+  
+    /* Status */
+    --status-error: #B00020;
+    --status-success: #4CAF50;
+    --status-warning: #FB8C00;
+    --status-info: #2196F3;
+  }
+  
+  [data-theme="dark"] {
+    /* Dark Theme Variables */
+  
+    /* Layout */
+    --layout-background: #121212;
+    --layout-surface: #1E1E1E;
+    --layout-divider: #2D2D2D;
+    --layout-border: #333333;
+    /* --layout-shadow: 0px 0px 15px rgba(0, 0, 0, 0.103); /* Same as light */
+    /* --layout-shadow-none: none;
+
+    /* Typography */
+    --typography-primary: #E1E1E1;
+    --typography-secondary: #ABABAB;
+    --typography-disabled: #6E6E6E;
+  
+    /* Brand - Assuming brand colors might stay the same or adjust if needed */
+    /* --brand-primary: #0064E6; */
+    /* --brand-primary-light: #4791DB; */
+    /* --brand-primary-dark: #115293; */
+    /* --brand-secondary: #03DAC6; */
+    /* --brand-secondary-light: #66FFF9; */
+    /* --brand-secondary-dark: #00A896; */
+  
+    /* Interaction */
+    --interaction-hover: rgba(255, 255, 255, 0.08);
+    --interaction-focus: rgba(255, 255, 255, 0.12);
+    --interaction-selected: rgba(144, 202, 249, 0.16);
+    --interaction-disabled: #6E6E6E; /* Note: Same as typography disabled */
+  
+    /* Status */
+    --status-error: #CF6679;
+    --status-success: #81C784;
+    --status-warning: #FFB74D;
+    --status-info: #64B5F6;
+  }
